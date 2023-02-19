@@ -15,7 +15,7 @@ export const getMessage = createAsyncThunk(FETCH_MESSAGE, async () => {
 });
 
 const messageSlice = createSlice({
-  name: 'message',
+  name: 'messageData',
   initialState,
   extraReducers: (builder) => {
     builder
