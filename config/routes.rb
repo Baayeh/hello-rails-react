@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root 'messages#main'
-  
+  root 'root#index'
+
   namespace :api do
     namespace :v1 do
       resources :messages, only: :index
